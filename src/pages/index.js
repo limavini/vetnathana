@@ -1,5 +1,8 @@
 import React from "react"
+import tw from "tailwind.macro"
 
-export default function Home() {
-  return <div>Hello world!</div>
+const MyComponent = () => {
+  return <h4>This is Vini</h4>
 }
+
+export default MyComponent

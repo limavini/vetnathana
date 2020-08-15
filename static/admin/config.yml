@@ -1,16 +1,26 @@
 backend:
-  name: test-repo
+  name: vetnathana
 
+local_backend: true
 media_folder: static/assets
 public_folder: /assets
+locale: "pt"
 
 collections:
-  - name: blog
-    label: Blog
-    folder: blog
+  - name: consultation
+    label: Atendimentos
+    label_singular: Atendimento
+    identifier_field: description
+    description: Adicionar o registro de uma nova consulta
+    folder: src/consultation
     create: true
+    delete: false
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+      - { name: description, label: Descricao, required: true, widget: "text" }
+      - {
+          name: image,
+          label: Imagem,
+          required: true,
+          widget: "image",
+          allow_multiple: false,
+        }
