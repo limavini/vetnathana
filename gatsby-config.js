@@ -10,6 +10,7 @@ module.exports = {
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-postcss",
     "gatsby-plugin-emotion",
+    "gatsby-plugin-sass",
     {
       resolve: `gatsby-source-filesystem`,
       options: {

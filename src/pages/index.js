@@ -1,8 +1,8 @@
 import React from "react"
-import tw from "tailwind.macro"
+import { Banner } from "../components/Banner/"
 
 const MyComponent = () => {
-  return <h4>This is Vini</h4>
+  return <Banner />
 }
 
 export default MyComponent
