@@ -3,7 +3,7 @@ import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa"
 
 export const Header = () => {
   return (
-    <div className="bg-gray-100 p-6 px-16 flex justify-between">
+    <div className="bg-green-100 p-6 px-16 flex justify-between">
       <div>LOGO</div>
       <ul className="flex flex-row space-x-12 > * text-lg items-center">
         <a
