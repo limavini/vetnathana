@@ -1,0 +1,13 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+@media (max-width: 1024px) {
+  .item {
+    flex: 2;
+    flex-basis: 100%;
+  }
+}
